@@ -196,8 +196,7 @@
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
       active = false;
-        
-        
+
     }
 
     // ButtonCがクリックされた時の処理
@@ -212,7 +211,11 @@
 
     //ButtonDがクリックされた時の処理
     function btnDClick(e){
-      active = true;
+      active = false;
+      period = 300;
+       $("#time").html("経過時間：0");
+       $("#remain").html("残り時間："+period);
+        
 
     }
     
@@ -248,7 +251,7 @@
     <button id="btnA">開始</button>  
     <button id="btnB">停止</button>  
     <button id="btnC">設定</button>  
-    <button id="btnD">再開</button>  
+    <button id="btnD">5分</button>  
     <input type="number" id="minute" value=3 >
     <input type="number" id="second" value=0 >
 </body>
