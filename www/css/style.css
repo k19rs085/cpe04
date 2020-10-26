@@ -50,11 +50,14 @@
     #btnB {
         font-size: 20px;
         position:absolute; top:380px; left:25%; width:23%; height:60px; 
+        background-color: pink;
     }
 
     #btnC {
         font-size: 20px;
         position:absolute; top:380px; left:48%; width:23%; height:60px; 
+        background-color: powderblue;
+        color: red;
     }
 
     #btnD {
@@ -62,6 +65,8 @@
       position: absolute;
        top: 380px; left:71%;
        width: 23%; height:60px;
+       background-color: cornsilk;
+       color: coral;
 
     }
     
